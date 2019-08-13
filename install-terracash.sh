@@ -2,7 +2,7 @@
 
 TMP_FOLDER=$(mktemp -d) 
 
-DAEMON_ARCHIVE=${1:-"https://github.com/TerraCash-Project/TerraCash-Core/releases/download/v1.0.0/terracash-1.0.0-x86_64-linux-gnu.tar.gz"}
+DAEMON_ARCHIVE=${1:-"https://github.com/TerraCash-Project/TerraCash/releases/download/v1.0.0/terracash-1.0.0-x86_64-linux-gnu.tar.gz"}
 ARCHIVE_STRIP=""
 DEFAULT_PORT=40009
 
